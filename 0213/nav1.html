@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{margin: 0; padding: 0;}
+nav{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style: none;
+}
+nav>ul>li{
+    float:left;
+}
+nav ul li a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: goldenrod;
+    text-align: center;
+    text-decoration : none;
+    color: darkgreen;
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+
+</style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Menu1</a>
+                <ul>
+                    <li><a href="#">Submenu1</a></li>
+                    <li><a href="#">Submenu2</a></li>
+                    <li><a href="#">Submenu3</a></li>
+                    <li><a href="#">Submenu4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Menu2</a>
+                <ul>
+                <li><a href="#">Submenu1</a></li>
+                    <li><a href="#">Submenu2</a></li>
+                    <li><a href="#">Submenu3</a></li>
+                    <li><a href="#">Submenu4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Menu3</a>
+                <ul>
+                    <li><a href="#">Submenu1</a></li>
+                    <li><a href="#">Submenu2</a></li>
+                    <li><a href="#">Submenu3</a></li>
+                    <li><a href="#">Submenu4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Menu4</a>
+                <ul>
+                    <li><a href="#">Submenu1</a></li>
+                    <li><a href="#">Submenu2</a></li>
+                    <li><a href="#">Submenu3</a></li>
+                    <li><a href="#">Submenu4</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

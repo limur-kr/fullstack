@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex02</title>
+<style>
+*{margin: 0; padding: 0;}
+.centainer{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 300px;
+    background-color: palevioletred;
+}
+.fireflower{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: pink;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: center;
+}
+nav{
+    width: 850px;
+    height: 80px;
+    background-color: pink;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+nav ul{
+    list-style: none;
+    width: 700px;
+    height: 60px;
+    background-color: plum;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+nav ul li{float: left;}
+
+nav ul li a{
+    color: whitesmoke;
+    /* text-decoration : a 글자 밑줄 없앰 */
+    text-decoration: none;
+    /* a 인라인요소(넓이,높이 X)를 블럭요소로 치환 */
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: plum;
+    margin-top: 10px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+section{
+    margin-top: 10px;
+    height: 500px;
+    background-color: palevioletred;
+}
+section .leftbox{
+    height: 450px;
+    width: 800px;
+    background-color: pink;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.left1{
+    height: 430px;
+    width: 370px;
+    background-color: plum;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.right1{
+    height: 430px;
+    width: 370px;
+    background-color: plum;
+    float : right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+section .rightbox{
+    height: 450px;
+    width: 400px;
+    background-color: pink;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.top1{
+    width: 400px;
+    height: 210px;
+    background-color: plum;
+}
+.button1{
+    margin-top: 30px;
+    width: 400px;
+    height: 210px;
+    background-color: plum;
+}
+footer{
+    margin-top: 10px;
+    height: 100px;
+    background-color: palevioletred;
+    padding-top: 1px;
+}
+.footer_top{
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+    background-color: pink;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+.footer_button{
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <div class="centainer">
+        <header>
+            <h1 class="fireflower"><a href="#">(화산귀환)</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">무림</a></li>
+                    <li><a href="#">화산</a></li>
+                    <li><a href="#">태백</a></li>
+                    <li><a href="#">당가</a></li>
+                    <li><a href="#">마교</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <article class="leftbox">
+                <div class="left1"></div>
+                <div class="right1"></div>
+            </article>
+
+            <article class="rightbox">
+                <div class="top1"></div>
+                <div class="button1"></div>
+            </article>
+        </section>
+
+        <footer>
+            <div class="footer_top">
+                화산에서 내려와 칼부림이 일어나니니
+            </div>
+            <div class="footer_button">
+                FIREFLOWER ⓒ COMPONY.
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
