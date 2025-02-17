@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: cadetblue;
+}
+#content{
+    /* height: 600px; */
+    overflow: hidden;
+}
+#section{
+    width: 900px;
+    height: 600px;
+    background-color: cornflowerblue;
+    float: left;
+}
+#sidebar{
+    width: 300px;
+    height: 600px;
+    background-color: burlywood;
+    float: left;
+}
+#footer{
+    /* p239 */
+    /* margin이 header에서부터 인지해서 섹션과 사이드바가 없다고 생각해서
+    헤더부터 인지하기 때문에 margin을 많이줘야된다 즉 별로 좋지않은 방법이다. */
+    /* clear: both; */
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+}

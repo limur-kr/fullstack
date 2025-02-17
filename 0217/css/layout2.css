@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: aquamarine;
+}
+#content{
+    overflow: hidden;
+}
+#lnb{
+    width: 200px;
+    height: 600px;
+    background-color: beige;
+    float: left;
+}
+#section{
+    width: 600px;
+    height: 600px;
+    background-color: greenyellow;
+    float: left;
+}
+#sidebar{
+    width: 200px;
+    height: 600px;
+    background-color: violet;
+    float: left;
+}
+#footer{
+
+    height: 200px;
+    background-color: slateblue;
+}
