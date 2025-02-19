@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0;}
+
+.main3{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+.section3 ul{
+    list-style: none;
+    
+}
+.section3 ul li{
+    float: left;
+    width: 310px;
+    height: 220px;
+    border: 1px solid #333;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+.section3 ul li:nth-child(3){
+    margin-right: 0;
+}
+.section3 ul li a{
+    text-decoration: none;
+}
